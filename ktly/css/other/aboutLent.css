@@ -1,0 +1,36 @@
+.container1{
+    padding-bottom: 20px;
+}
+.container1 .content{
+	display: flex;
+	padding: 0 40px;
+	justify-content: center;
+}
+.container1 .content .item{
+	width: 50%;
+	padding: 5px 5px;
+	/* height: 236px; */
+}
+.container1 .content .left{
+	display: flex;
+	justify-content: center;
+}
+.container1 .content .left img{
+	width: 447px;
+	height: 251px;
+}
+.container1 .content .right{
+	display: flex;
+	flex-direction: column;
+	color:rgb(105, 105, 105);
+	/* display:inline; */
+	font-family:微软雅黑;
+	font-size:14px;
+	font-style:normal;
+	font-weight:400;
+	height:auto;
+	line-height:24px;
+}
+.container1 .content .right span:first-child{
+	margin-bottom: 20px;
+}

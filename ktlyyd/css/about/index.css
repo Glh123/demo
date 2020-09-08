@@ -1,0 +1,21 @@
+
+
+.container1 .content .left{
+    
+    color:rgb(105, 105, 105);
+    font-family:微软雅黑;
+    font-size:0.14rem;
+    font-style:normal;
+    font-weight:400;
+}
+.container1 .content .left div{
+    padding-top: 0.20rem;
+}
+.container1 .content .right{
+    /* width: 4.93rem; */
+    text-align: center;
+}
+.container1 .content .right img{
+    width: 3.00rem;
+    height: 2.05rem;
+}

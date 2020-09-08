@@ -1,0 +1,28 @@
+
+.container1 .content{
+    display: flex;
+    justify-content: center;
+    height: 436px;
+}
+.container1 .content .left{
+    width: 512px;
+    color:rgb(105, 105, 105);
+    display:inline;
+    font-family:微软雅黑;
+    font-size:14px;
+    font-style:normal;
+    font-weight:400;
+}
+.container1 .content .left div{
+    width: 481px;
+    padding-top: 20px;
+}
+.container1 .content .right{
+    width: 493px;
+    display: flex;
+    justify-content: center;
+}
+.container1 .content .right img{
+    width: 300px;
+    height: 205px;
+}

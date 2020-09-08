@@ -1,0 +1,51 @@
+.container1{
+    padding-bottom: 20px;
+}
+
+.container1 .content{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 .content .item{
+    width: 460px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    color:#8B4513;
+    border-radius: 8px;
+    border: 1px solid rgb(234, 157, 32);
+    margin-right: 10px;
+    border-bottom: 0;
+}
+.container1 .content .item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.container1 .content .item .font1{
+    margin: 10px 0;
+    font-size:18px;  
+}
+.container1 .content .item .font2{
+    font-size:16px;
+    margin-bottom: 20px;
+}
+.container1 .content .item .font3{
+    font-size:16px;
+    height: 129px;
+    width: 460px;
+    background-color:#ddb475;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.container1 .content .item .font3 div{
+    width: 420px;
+    margin: 0 auto;
+}

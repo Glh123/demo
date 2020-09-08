@@ -1,0 +1,131 @@
+.container1{
+    padding-bottom: 20px;
+}
+.container1 .content{
+    display: flex;
+    padding: 20px 40px;
+}
+.container1 .content .left{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.container1 .content .left .item{
+    width: 100%;
+    
+}
+.container1 .content .left .item .title{
+    display: block;
+    width: 100%;
+    /* background-color: #DD9933; */
+    color: #dd9933;
+    height: 49px;
+    font-family:微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+    font-size:14px;
+    font-style:normal;
+    font-weight:400;
+    text-align: left;
+    line-height: 49px;
+    padding-left: 10px;
+}
+.container1 .content .left .item .title:hover{
+    background-color: #DD9933;
+    color: white;
+}
+.container1 .content .left .item:first-child .titleActive{
+    background-color: #DD9933;
+    color: white;
+}
+.border{
+    /* border-top: 1px solid #dd9933; */
+    border-bottom: 1px solid #dd9933;
+}
+.container1 .content .left .item .title span{
+    padding-left: 0;
+}
+.container1 .content .left .item .list{
+    display: flex;
+    flex-direction: column;
+    font-size:12px;
+    font-style:normal;
+    font-weight:400;
+}
+.container1 .content .left .item .list .items{
+    display: block;
+    width: 100%;
+    /* background-color: pink; */
+    color: #dd9933;
+    height: 40px;
+    line-height: 49px;
+    padding-left: 30px;
+}
+.container1 .content .left .item .list .items:hover{
+    background-color: #DD9933;
+    color: white;
+}
+
+
+.container1 .content .right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 10px; 
+}
+.container1 .content .right .top{
+    display: flex;
+    
+}
+.container1 .content .right .top .lLeft{
+    width: 164px;
+    height: 164px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+}
+.container1 .content .right .top .lLeft img{
+    width: 148px;
+    height: 148px;
+    margin: 8px;
+    transition-property: width , height,margin; 
+    transition-duration:1s , 1s,1s;
+}
+.container1 .content .right .item:hover img{
+    width: 164px;
+    height: 164px;
+    margin: 0;
+}
+.container1 .content .right .item:hover .top .lLeft{
+    border: 1px solid transparent;
+}
+.container1 .content .right .top .lRight{
+    flex: 1;
+    padding-left: 15px;    
+    height: 168px;
+    font-family:微软雅黑;
+}
+.container1 .content .right .top .lRight p:first-child{
+    
+    font-size:16px;
+    font-weight:700;
+    color: #373A41;
+    line-height: 16px;  
+}
+.container1 .content .right .top .lRight p:last-child{
+    padding-top: 10px;
+    font-weight: 400;
+    color: #686868;
+    font-size: 12px;
+    line-height: 12px;  
+}
+
+.container1 .content .right .container1_bottom{
+    text-align: right;
+    font-family:微软雅黑;
+    font-size:16px;
+    font-style:normal;
+    font-weight:400;
+    color: #dd9933;
+    padding-top: 10px;
+}
+.hr{
+    margin: 17px 0;
+    border-top: 1px solid bisque;
+}
